@@ -5,7 +5,7 @@ from config import MONGODB_URI
 
 app = Flask(__name__)
 client = MongoClient(MONGODB_URI)
-db = client.get_database('MongoLearn')
+db = client.get_database('YOUR_DATABASE_NAME')
 users_collection = db.users
 
 @app.route('/')

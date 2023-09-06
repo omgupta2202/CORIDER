@@ -1,3 +1,20 @@
+Follow these steps to set up and run the Flask application within a Docker container:
+1. Clone the repository to your local machine
+2. Change in .env file: MONGODB_URI=mongodb://username:password@localhost:27017/myappdb
+3. Change database name in app.py
+4. Change Username and password in docker-compose.yml
+5. docker build -t corider .
+6. docker run -p 5000:5000 --env-file .env corider
+
+
+
+
+
+
+
+
+
+
 Assignment: Flask Application for CRUD operations on MongoDB
 You need to develop a Flask application that performs CRUD (Create, Read, Update, Delete) operations on a MongoDB database for a User resource using a REST API. The REST API endpoints should be accessible via HTTP requests and tested using Postman.
 Requirements

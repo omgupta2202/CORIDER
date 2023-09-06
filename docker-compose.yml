@@ -6,8 +6,8 @@ services:
     ports:
       - "27017:27017"
     environment:
-      MONGO_INITDB_ROOT_USERNAME: omgupta2202
-      MONGO_INITDB_ROOT_PASSWORD: hGZFXBseaREbAJAq
+      MONGO_INITDB_ROOT_USERNAME: YOUR_USERNAME
+      MONGO_INITDB_ROOT_PASSWORD: YOUR_PASS
 
   web:
     build: .

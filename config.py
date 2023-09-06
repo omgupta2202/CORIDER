@@ -1,1 +1,1 @@
-MONGODB_URI = 'mongodb+srv://omgupta2202:hGZFXBseaREbAJAq@mongolearn.6ajoyeg.mongodb.net/'
+MONGODB_URI = 'YOUR_MONGO_URI'
